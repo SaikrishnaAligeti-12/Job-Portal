@@ -32,7 +32,7 @@ function Jobs() {
 
       const res = await axios.get(
 
-        "http://localhost:5000/api/jobs"
+        "https://job-portal-backend-upve.onrender.com/api/jobs"
       );
 
       setJobs(res.data);
@@ -58,7 +58,7 @@ function Jobs() {
 
       const res = await axios.post(
 
-        `http://localhost:5000/api/jobs/apply/${jobId}`,
+        `https://job-portal-backend-upve.onrender.com/api/jobs/apply/${jobId}`,
 
         { userId }
       );
