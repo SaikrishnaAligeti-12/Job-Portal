@@ -1,4 +1,4 @@
-# MERN Stack Job Portal
+# 🚀 MERN Stack Job Portal
 
 A full-stack Job Portal web application developed using the MERN Stack (MongoDB, Express.js, React.js, Node.js).
 
@@ -48,13 +48,13 @@ A full-stack Job Portal web application developed using the MERN Stack (MongoDB,
 
 # 📂 Project Structure
 
+```bash
 job-portal/
-├── frontend/
 ├── backend/
-├── routes/
-├── models/
-├── components/
-└── pages/
+├── frontend/
+├── screenshots/
+└── README.md
+```
 
 ---
 
@@ -62,7 +62,7 @@ job-portal/
 
 ## Clone Repository
 
-```bash id="qw2v7n"
+```bash
 git clone https://github.com/SaikrishnaAligeti-12/Job-Portal.git
 ```
 
@@ -70,7 +70,7 @@ git clone https://github.com/SaikrishnaAligeti-12/Job-Portal.git
 
 ## Install Frontend Dependencies
 
-```bash id="zv7a6m"
+```bash
 cd frontend
 npm install
 ```
@@ -79,7 +79,7 @@ npm install
 
 ## Install Backend Dependencies
 
-```bash id="x4fh4e"
+```bash
 cd backend
 npm install
 ```
@@ -88,7 +88,7 @@ npm install
 
 ## Run Frontend
 
-```bash id="p9d6a4"
+```bash
 npm start
 ```
 
@@ -96,7 +96,7 @@ npm start
 
 ## Run Backend
 
-```bash id="m4j0cv"
+```bash
 node server.js
 ```
 
@@ -104,11 +104,51 @@ node server.js
 
 # 🌐 Live Demo
 
-Frontend:
-(Add your Vercel URL here)
+## Frontend
 
-Backend:
-(Add your Render URL here)
+https://job-portal-dun-phi.vercel.app
+
+## Backend
+
+https://job-portal-backend-upve.onrender.com
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Home Page
+
+![Home](screenshots/home.png)
+
+---
+
+## 🔐 Login Page
+
+![Login](screenshots/login.png)
+
+---
+
+## 📝 Register Page
+
+![Register](screenshots/register.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ❤️ Saved Jobs Page
+
+![Saved Jobs](screenshots/savedjobs.png)
+
+---
+
+## ➕ Add New Jobs Page
+
+![Add New Jobs](screenshots/addnewjobs.png)
 
 ---
 
@@ -125,7 +165,7 @@ Backend:
 
 # 👨‍💻 Author
 
-Sai Krishna Aligeti
+## Sai Krishna Aligeti
 
 GitHub:
 https://github.com/SaikrishnaAligeti-12
